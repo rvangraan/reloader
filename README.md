@@ -1,5 +1,7 @@
 #Erlang Reloader
 
+If you're using rebar3, look at https://www.rebar3.org/docs/using-available-plugins#auto-compile-and-load
+
 This is a mirror of [the MochiWeb reloader](https://github.com/mochi/mochiweb/blob/master/src/reloader.erl).
 It will monitor every loaded Erlang module's BEAM file for
 modifications, checking once a second and reloading the BEAM if it has
