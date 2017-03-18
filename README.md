@@ -1,4 +1,4 @@
-#Erlang Reloader
+# Erlang Reloader
 
 If you're using rebar3, look at https://www.rebar3.org/docs/using-available-plugins#auto-compile-and-load
 
@@ -11,7 +11,7 @@ updated every second, so newly loaded modules are detected.
 Use this project it for applications that need a code reloader in
 development that don't require anything else that MochiWeb provides.
 
-##Installation
+## Installation
 
 Add the following to your `rebar.config`:
 
@@ -19,7 +19,7 @@ Add the following to your `rebar.config`:
 
 And run `rebar get-deps` followed by `rebar compile`.
 
-##Usage
+## Usage
 
 Start the reloader with your application (here is an example for a
 `nuclear_ant` app):
